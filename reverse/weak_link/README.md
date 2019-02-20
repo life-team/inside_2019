@@ -9,3 +9,6 @@ service xinetd start
 ```
 nc 127.0.0.1 444
 ```
+
+
+Автор: @rerand0m
