@@ -1,14 +1,14 @@
 # Weak link
 Нам в руки попал исходный код обработчика распределённой структуры. Исследуй его и попробуй вытащить послание с нужного элемента структуры.
-```
-./create_docker.sh
-./run_server.sh
-service xinetd start
-```
+
+    ./create_docker.sh  
+    ./run_server.sh. 
+    service xinetd start. 
+
 В другом терминале:
-```
-nc 127.0.0.1 444
-```
+
+    nc 127.0.0.1 444
+
 
 
 Автор: @rerand0m
