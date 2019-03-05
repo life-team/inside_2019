@@ -35,6 +35,8 @@ char *message = NULL;
 
 int sv_sock = -1;
 
+pthread_mutex_t mutex;
+
 int super_decrypt(char *message) {
 	uint32_t i;
 
@@ -43,6 +45,48 @@ int super_decrypt(char *message) {
 	}
 	message[i] = message[i] ^ key[i % 16];
 	return 0;
+}
+
+void get_coord(char* buf, int sock)
+{
+	printf("get\n");
+	snprintf(buf, BUF_SIZE, "%03u,%u° %03u,%u°",
+			rand() % 180, rand(), rand() % 180, rand());
+	send(sock, buf, strlen(buf)+1, 0);
+}
+void get_time(char *buf, int sock)
+{
+	time_t t = time(NULL);
+	struct tm *lct = localtime(&t);
+
+	printf("time\n");
+	strncpy(buf, asctime(lct), BUF_SIZE);
+	send(sock, buf, strlen(buf)+1, 0);
+}
+
+void rcv(char *buf, int sock)
+{
+	printf("rcv message %s\n", buf + 5);
+	pthread_mutex_lock(&mutex);
+	if (strcmp(buf + 5, "") != 0) {
+		if (message != NULL)
+			free(message);
+		message = (char *)malloc(strlen(buf+5)+1);
+		strcpy(message, buf + 5);
+	}
+	send(sock, OK, strlen(OK)+1, 0);
+	pthread_mutex_unlock(&mutex);
+}
+
+void snd(int sock)
+{
+	printf("snd message\n");
+	pthread_mutex_lock(&mutex);
+	if (message == NULL)
+		send(sock, OK, strlen(OK)+1, 0);
+	else
+		send(sock, message, strlen(message)+1, 0);
+	pthread_mutex_unlock(&mutex);
 }
 
 void * thread_func(void *args)
@@ -61,32 +105,14 @@ void * thread_func(void *args)
 			break;
 		}
 
-		if (strncmp(buf, "/cmd1", 5) == 0) {
-			printf("command 1\n");
-			snprintf(buf, BUF_SIZE, "%03u,%u° %03u,%u°",
-					rand() % 180, rand(), rand() % 180, rand());
-			send(sock, buf, strlen(buf)+1, 0);
-		} else if (strncmp(buf, "/cmd2", 5) == 0) {
-			time_t t = time(NULL);
-			struct tm *lct = localtime(&t);
-			printf("command 2\n");
-			strncpy(buf, asctime(lct), BUF_SIZE);
-			send(sock, buf, strlen(buf)+1, 0);
-		} else if (strncmp(buf, "/cmd3", 5) == 0) {
-			printf("rcv message %s\n", buf + 5);
-			if (strcmp(buf + 5, "") != 0) {
-				if (message != NULL)
-					free(message);
-				message = (char *)malloc(strlen(buf+5)+1);
-				strcpy(message, buf + 5);
-			}
-			send(sock, OK, strlen(OK)+1, 0);
-		} else if (strncmp(buf, "/cmd4", 5) == 0) {
-			printf("snd message\n");
-			if (message == NULL)
-				send(sock, OK, strlen(OK)+1, 0);
-			else
-				send(sock, message, strlen(message)+1, 0);
+		if (strncmp(buf, "/get", 5) == 0) {
+			get_coord(buf, sock);
+		} else if (strncmp(buf, "/time", 5) == 0) {
+			get_time(buf, sock);
+		} else if (strncmp(buf, "/rcv", 5) == 0) {
+			rcv(buf, sock);
+		} else if (strncmp(buf, "/snd", 5) == 0) {
+			snd(sock);
 		} else if (strncmp(buf, "/login/", 7) == 0) {
 			printf("login\n");
 			ptr = &buf[7];
@@ -107,7 +133,14 @@ void * thread_func(void *args)
 			if (strncmp(buf, "/get_flag", 9) == 0) {
 				printf("%d get_flag\n", sock);
 				send(sock, FLAG, strlen(FLAG)+1, 0);
-			} else {
+			} else if (strncmp(buf, "/get", 5) == 0) {
+				get_coord(buf, sock);
+			} else if (strncmp(buf, "/time", 5) == 0) {
+				get_time(buf, sock);
+			} else if (strncmp(buf, "/rcv", 5) == 0) {
+				rcv(buf, sock);
+			} else if (strncmp(buf, "/snd", 5) == 0) {
+				snd(sock);
 				send(sock, "unknown command", 16, 0);
 			}
 		}
@@ -123,6 +156,7 @@ void * thread_func(void *args)
 static void dest() __attribute((destructor));
 
 void dest() {
+	pthread_mutex_destroy(&mutex);
 	if (sv_sock >= 0)
 		close(sv_sock);
 }
@@ -130,6 +164,8 @@ void dest() {
 int main() {
 	int sock = -1, rc;
 	struct sockaddr_in addr = { 0 };
+
+	pthread_mutex_init(&mutex, NULL);
 
 	addr.sin_family = AF_INET;
 	addr.sin_port = htons(PORT);

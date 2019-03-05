@@ -163,16 +163,16 @@ int main() {
 			strncpy(cmd, "/get_flag", 20);
 			send_cmd(sock, is_admin, cmd);
 		} else if (ch == 2) {
-			strncpy(cmd, "/cmd1", 20);
+			strncpy(cmd, "/get", 20);
 			send_cmd(sock, is_admin, cmd);
 		} else if (ch == 3) {
-			strncpy(cmd, "/cmd2", 20);
+			strncpy(cmd, "/time", 20);
 			send_cmd(sock, is_admin, cmd);
 		} else if (ch == 4) {
-			strncpy(cmd, "/cmd3", 20);
+			strncpy(cmd, "/rcv", 20);
 			send_cmd(sock, is_admin, cmd);
 		} else if (ch == 5) {
-			strncpy(cmd, "/cmd4", 20);
+			strncpy(cmd, "/snd", 20);
 			send_cmd(sock, is_admin, cmd);
 		}
 		memset(cmd, 0, 20);
