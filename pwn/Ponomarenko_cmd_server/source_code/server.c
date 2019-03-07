@@ -11,7 +11,7 @@
 #include <unistd.h>
 #include <time.h>
 
-#define FLAG "CTF{flagFLAGflagFLAG}"
+#define FLAG "ctf{We@k_t0_Find_2_m0re_solutions?}"
 #define NAME "doctor"
 
 #define IF_ERROR(rc, func, rt) do { \
