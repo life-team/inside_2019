@@ -1,0 +1,23 @@
+{
+	"name": "ctf-daemons",
+	"version": "1.0.0",
+	"description": "Node.js",
+	"author": "vsys",
+	"private": true,
+	"scripts": {
+		"comet": "node scripts/comet-daemon.js"
+	},
+	"dependencies": {
+		"amqp": "^0.2.6",
+		"config": "^1.30.0",
+		"express": "^4.16.3",
+		"http": "*",
+		"https": "*",
+		"socket.io": "^2.1.0"
+	},
+	"devDependencies": {},
+	"engines": {
+		"node": ">= 4.0.0",
+		"npm": ">= 3.0.0"
+	}
+}

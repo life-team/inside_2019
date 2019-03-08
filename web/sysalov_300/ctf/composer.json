@@ -1,0 +1,22 @@
+{
+	"name" : "ctf",
+	"version" : "0.0.1",
+	"require" : {
+		"php" : ">=7.0.0",
+		"yiisoft/yii2" : "2.0.12",
+		"yiisoft/yii2-gii" : "~2.0",
+		"yiisoft/yii2-bootstrap" : "*",
+		"yiisoft/yii2-swiftmailer" : "*",
+		"yiisoft/yii2-httpclient": "~2.0",
+		"nordsoftware/yii2-account": "*",
+		"creocoder/yii2-nested-sets": "0.9.*",
+		"php-amqplib/php-amqplib": "2.6.*",
+		"phpoffice/phpexcel": "1.8.x-dev",
+		"yiisolutions/yii2-queue": "0.0.3",
+		"linslin/yii2-curl": "1.2.1",
+		"yiisoft/yii2-redis": "^2.0"
+	},
+	"config": {
+		"process-timeout": 3600
+	}
+}

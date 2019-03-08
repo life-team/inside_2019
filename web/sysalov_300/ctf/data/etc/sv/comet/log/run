@@ -1,0 +1,2 @@
+#!/bin/sh
+exec chpst -u i868 svlogd -tt /var/log/i868/comet

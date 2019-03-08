@@ -1,0 +1,8 @@
+{
+	"rmq": {
+		"host": "127.0.0.1",
+		"vhost": "/",
+		"login": "ctf",
+		"password": "ctf48845756"
+	}
+}

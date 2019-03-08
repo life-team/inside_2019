@@ -1,0 +1,9 @@
+.vagrant
+Vagrantfile
+
+composer.phar
+composer.lock
+
+nbproject
+.idea
+yarn.lock
