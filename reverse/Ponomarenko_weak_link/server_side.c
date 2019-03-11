@@ -148,7 +148,7 @@ void init() {
 	add_vertex("s", "south");
 	add_vertex("e", "east");
 	add_vertex("nw", "north west");
-	add_vertex("flag", "ctf{you win}");
+	add_vertex("flag", "CTF{The_Weakest_Link_found!}");
 	add_vertex("se", "south east");
 	add_vertex("en", "east north");
 	add_vertex("nww", "north west");
