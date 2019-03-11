@@ -1,8 +1,0 @@
-service server
-{
-	disable = no
-	protocol = tcp
-	wait = no
-	user = server
-	server = /server
-}
