@@ -3,7 +3,7 @@ import resh
 
 if __name__ == "__main__":
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect(("localhost", 9090))
+    sock.connect(("localhost", 13452))
     k = -1
     while True:
         alph2 = []

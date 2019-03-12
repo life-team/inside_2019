@@ -1,0 +1,3 @@
+User-agent: *
+Disallow: /site.log
+# v3ry_53cr37_p455w0rd

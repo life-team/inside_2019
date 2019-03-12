@@ -1,0 +1,6 @@
+version: '2'
+services:
+  task_ppc_3:
+    build: .
+    ports:
+      - "13453:13453"
