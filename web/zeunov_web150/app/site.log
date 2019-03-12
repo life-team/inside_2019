@@ -1,0 +1,407 @@
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:10:21] "[1m[35mGET / HTTP/1.1[0m" 500 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:10:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 15:11:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 15:11:01] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:11:06] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:11:49] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:35] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:49] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:51] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:52] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:52] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:53] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:13:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:15:06] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:15:27] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:15:30] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:16:25] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:18:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:19:02] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:19:07] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:19:10] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:19:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:19:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:21:02] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:21:05] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:22:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:22:32] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:23:51] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:23:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:23:57] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:24:12] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:24:15] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:24:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:24:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:24:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:24:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:24:52] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:24:52] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:25:05] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:25:12] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:25:16] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:25:22] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:26:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:26:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:26:36] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:27:25] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:27:43] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 15:35:24] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:35:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:35:31] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:36:13] "[33mGET /robot.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:36:21] "[33mGET /robot.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:36:22] "[33mGET /robots.txt/allow:%20/admin/ HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:36:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:36:34] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:37:32] "[33mGET /robots.txt/allow:%20/site.log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:37:46] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:37:47] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:37:55] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:38:58] "[33mGET /robots.txt/allow:%20/site.log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:39:12] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:41:41] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:41:53] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:41:58] "[33mGET /robots.txt/site.log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:42:10] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:42:40] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:43:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:43:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:43:54] "[33mGET /site/log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:43:57] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:43:59] "[33mGET /site/log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:44:02] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:44:12] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:44:14] "[33mGET /sitelog HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 15:44:22] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:45:30] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:46:08] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:46:40] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:46:44] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:53:31] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:53:34] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:53:40] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:53:51] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:54:38] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:55:19] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:57:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:57:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 15:58:15] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:58:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 15:59:36] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:03:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:04:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:19:56] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:19:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:20:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:20:13] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:20:18] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:20:36] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 16:22:11] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 16:26:47] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:28:08] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:28:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:28:58] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:30:04] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:30:48] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:30:51] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:30:55] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 16:31:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 16:31:13] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 16:31:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:31:15] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 16:31:23] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.51 - - [24/Nov/2018 16:36:18] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2018 16:49:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2018 16:49:53] "[33mGET /apple-touch-icon-precomposed.png HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2018 16:49:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [24/Nov/2018 16:49:53] "[33mGET /apple-touch-icon.png HTTP/1.1[0m" 404 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 16:55:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 16:55:29] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 16:55:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 16:55:59] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.55 - - [24/Nov/2018 16:56:23] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.44 - - [24/Nov/2018 17:01:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:41:37] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:41:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:42:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:42:33] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:42:33] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:43:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:43:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:44:15] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:44:17] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:44:17] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:44:24] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:44:24] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:44:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:44:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:44:46] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:44:49] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:44:53] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:44:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:44:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:44:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:44:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:44:57] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:09] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:10] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:45:21] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:22] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:26] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:45:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:29] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:45:29] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:30] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:30] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:45:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:45:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:32] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:36] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:45:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:45:39] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:45:50] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:46:05] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:46:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:46:33] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:46:55] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:46:57] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:47:14] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:47:20] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:49:41] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:50:25] "[37mGET / HTTP/1.1[0m" 200 -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:51:39] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x9a\x87\x8cÍ(ª\x84\x96o\x8bW¾í=\x8dVÀì\x84MêzÀÏUË\x04Ã\x17Ýß2\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:51:39] "[1m[35m ®  ªÍ(ªoW¾í=VÀìMêzÀÏUËÃÝß2  JJÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:51:42] code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\xa0\x00zòµÖk2Z\x15)JS*\x18ñ\t\x9f_H\x93-I1>ã\x86Ë±\x98Ïò\x00\x00\x1cjjÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:51:42] "[1m[35m ®  ª  zòµÖk2Z)JS*ñ	_H-I1>ãË±Ïò  jjÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:51:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:52:03] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:52:15] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:52:18] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:root:<Config {'DEBUG': False, 'TESTING': False, 'PROPAGATE_EXCEPTIONS': None, 'PRESERVE_CONTEXT_ON_EXCEPTION': None, 'SECRET_KEY': '4r3_y0u_u53d_v3ry_53cr37_k3y?', 'PERMANENT_SESSION_LIFETIME': datetime.timedelta(31), 'USE_X_SENDFILE': False, 'LOGGER_NAME': '__main__', 'LOGGER_HANDLER_POLICY': 'always', 'SERVER_NAME': None, 'APPLICATION_ROOT': None, 'SESSION_COOKIE_NAME': 'session', 'SESSION_COOKIE_DOMAIN': None, 'SESSION_COOKIE_PATH': None, 'SESSION_COOKIE_HTTPONLY': True, 'SESSION_COOKIE_SECURE': False, 'SESSION_REFRESH_EACH_REQUEST': True, 'MAX_CONTENT_LENGTH': None, 'SEND_FILE_MAX_AGE_DEFAULT': datetime.timedelta(0, 43200), 'TRAP_BAD_REQUEST_ERRORS': False, 'TRAP_HTTP_EXCEPTIONS': False, 'EXPLAIN_TEMPLATE_LOADING': False, 'PREFERRED_URL_SCHEME': 'http', 'JSON_AS_ASCII': True, 'JSON_SORT_KEYS': True, 'JSONIFY_PRETTYPRINT_REGULAR': True, 'JSONIFY_MIMETYPE': 'application/json', 'TEMPLATES_AUTO_RELOAD': None}>
+INFO:werkzeug: * Running on http://0.0.0.0:8081/ (Press CTRL+C to quit)
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:55] code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x18\x9fV!\x8b³=\x9féE\x89~\x9al2$\x19\x03æ<ø\x928\x89\xa0ý\x1f\x1cY¢MN\x00\x00\x1cêêÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:55] "[1m[35m ®  ªV!³=éE~l2$æ<ø8 ýY¢MN  êêÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:55] code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03ÏO7\x11 ×åêò¦¯\x9ec2qn\x90Êíô74èÑÝÃ\x1e¹Ê#Ë\xa0\x00\x00\x1cúúÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:55] "[1m[35m ®  ªÏO7 ×åêò¦¯c2qnÊíô74èÑÝÃ¹Ê#Ë   úúÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad request version ('::À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ª/H×³Ô±9F*VjyN¸Âþ3\¸ûÆ=®  ::À+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03ÄÕÇÆtãEúÊ(\x84\x86\x0e\x94<\x066¡íàá©ñ*1¸Æ\x10\x8eÀðe\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ªÄÕÇÆtãEúÊ(<6¡íàá©ñ*1¸ÆÀðe  ÊÊÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad request version ('::À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ª"üJ¬Ç¥û°IcC¢kU»Þ©7áeý%(LÌ?   ::À+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad request version ('::À+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ªjý½OWÛþxì²}ÌðåL¢Ða¡UÝ¿&éþ  ::À+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad request version ('ÚÚÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ª K/\DSfÈ.Ìö5¥OWöie®©Ó©Ï­}D\z¸  ÚÚÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x89\x04¾\x9a\x8a\x018hî?¦õ\x96ÂûßôÊ\x04\x1aûyaþ,0t¶§X\x9bõ\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ª¾8hî?¦õÂûßôÊûyaþ,0t¶§Xõ  êêÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03äQ¿\x19Ãu\x06¸q\x91ùcMÀ/]\x82\x0f®V\x1a1}ñ7É¿s\x15{[Á\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ªäQ¿Ãu¸qùcMÀ/]®V1}ñ7É¿s{[Á  **À+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03aÍíÁ0Û\x81w?"ñßI69rÑ\x16$Åðâß\x8c\x97TDÎ\\c\x1b\x83\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:58] "[1m[35m ®  ªaÍíÁ0Ûw?"ñßI69rÑ$ÅðâßTDÎ\c  ZZÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x87MÞî7f¢[¿ÓÆ\x91\x12\x05SC/²¦\x1ahë\x01WÆ³*ç\x94Æºj\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ªMÞî7f¢[¿ÓÆSC/²¦hëWÆ³*çÆºj  À+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x0c%\x16;%à\x89\x0e0\xa0Í¤\x1cÂ7tT94wÑ\x19»÷\x81\tÊ\x80(\x19\x8e¤\x00\x00\x1cÊÊÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ª%;%à0 Í¤Â7tT94wÑ»÷	Ê(¤  ÊÊÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x9d\x99\x84\x81{ÑçÒv¦_=$\x05ü\x94¥0à(\\;û/g%[|>Mè\x90\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ª{ÑçÒv¦_=$ü¥0à(\;û/g%[|>Mè  ZZÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad request syntax ("\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03$G£\r8c]HPð\x0b_\x8fTj»C6@|\x85ZÉ%\x04W')L\x8d\x03\x96\x00\x00\x1cººÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00")
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ª$G£8c]HPð_Tj»C6@|ZÉ%W')L  ººÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03E\x8e\x08~]©§Ýu«nâV#Ò\x89\x0f\x8aõ<öóò2Ñ¶\x0e*Ùüy\x01\x00\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ªE~]©§Ýu«nâV#Òõ<öóò2Ñ¶*Ùüy  ZZÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] code 400, message Bad request version ('êêÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:52:59] "[1m[35m ®  ªæp{öj¶f9¨k£çM/´âßi+cÐ£"&'2  êêÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:53:00] code 400, message Bad request syntax ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03\x0c\x04l¼ù\x87?aß\x19j!nê}¬?8ug!r\x0b\x8d/CÀ\x8c³xæ,\x00\x00\x1cººÀ+À/À,À0Ì©Ì¨À\x13À\x14\x00\x9c\x00\x9d\x00/\x005\x00')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:53:00] "[1m[35m ®  ªl¼ù?aßj!nê}¬?8ug!r/CÀ³xæ,  ººÀ+À/À,À0Ì©Ì¨ÀÀ   / 5 [0m" HTTPStatus.BAD_REQUEST -
+ERROR:werkzeug:192.168.2.60 - - [24/Nov/2018 17:53:00] code 400, message Bad HTTP/0.9 request type ('\x16\x03\x01\x00®\x01\x00\x00ª\x03\x03»')
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:53:00] "[1m[35m ®  ª»	 B"ø§½îoz?,´8t+¤dO[0m" HTTPStatus.BAD_REQUEST -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:01] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:10] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:24] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:30] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:53:38] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:43] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:45] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:53:46] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:53:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:53:57] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:53:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:53:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:00] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:00] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:54:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:02] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:54:03] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:03] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:04] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:04] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:05] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:06] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:06] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:07] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:08] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:08] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:09] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:54:09] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:54:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:54:19] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:54:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:54:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 17:54:47] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 17:54:49] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:54:50] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:55:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:55:43] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:56:18] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:56:26] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:56:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 17:56:35] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:57:32] "[33mGET /ro[...]txt(7) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:57:42] "[33mGET /ro[...]txt(?) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 17:58:13] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:58:16] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:58:45] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 17:58:45] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:58:48] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:59:07] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:59:08] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:59:13] "[33mGET /ro[1]txt(?) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:59:23] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 17:59:24] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:59:28] "[33mGET /robot.txt(?) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:59:29] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:59:30] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:59:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 17:59:32] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 17:59:44] "[33mGET /rolixt.txt(?) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 18:02:09] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:02:54] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:03:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:03:03] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:03:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:03:20] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:03:27] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:03:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:03:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:03:37] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:03:49] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:04:21] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:04:24] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:04:28] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:04:30] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:04:41] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:04:41] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:04:45] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:04:48] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:04:50] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:04:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:05:03] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 18:05:17] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:05:42] "[33mGET /robotst(?) HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:05:52] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:06:40] "[33mGET /Disallow:%20/site.log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:06:46] "[33mGET /Disallow:%20/site.log HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:06:53] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:07:14] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 18:07:46] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:08:42] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:09:14] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 18:09:19] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:09:49] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:09:57] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:09:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:09:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:10:00] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:10:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:10:01] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:10:05] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.64 - - [24/Nov/2018 18:10:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:19:13] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:20:58] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:21:04] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:21:19] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:21:46] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 18:22:12] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:24:36] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 18:24:38] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:25:55] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 18:56:21] "[33mGET /robot.txt HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 18:56:36] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:31] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:42] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:43] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:43] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:44] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 18:57:44] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.57 - - [24/Nov/2018 19:03:00] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 19:03:47] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 19:03:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 19:04:16] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 19:04:22] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.62 - - [24/Nov/2018 19:05:07] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.61 - - [24/Nov/2018 19:07:30] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 19:14:12] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:16:47] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:16:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 19:19:55] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 19:20:14] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:20:39] "[37mGET /site.log HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:20:39] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:20:58] "[33mGET /robots HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:20:58] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:04] "[37mGET /robots.txt HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:04] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:40] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:42] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:21:49] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.45 - - [24/Nov/2018 19:22:19] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 19:22:33] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.60 - - [24/Nov/2018 19:22:36] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:43] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:47] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:52] "[37mGET / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:52] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:56] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:57] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:59] "[37mPOST / HTTP/1.1[0m" 200 -
+INFO:werkzeug:192.168.2.49 - - [24/Nov/2018 19:25:59] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
