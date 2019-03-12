@@ -99,7 +99,7 @@ class Server(object):
 if __name__ == "__main__":
     import logging
     logging.basicConfig(level=logging.DEBUG)
-    server = Server("0.0.0.0", 7777)
+    server = Server("0.0.0.0", 13453)
     try:
         logging.info("Listening")
         server.start()

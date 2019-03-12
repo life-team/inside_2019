@@ -19,7 +19,7 @@ def handle(connection, address):
                     pyatn[i][d] = k[random.randint(0, len(k) - 1)]
                     k.remove(pyatn[i][d])
             for i in range(4):
-                time.sleep(0.01)
+                time.sleep(0.04)
                 connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
             k = 0
             ryad = 0
@@ -76,7 +76,7 @@ class Server(object):
 if __name__ == "__main__":
     import logging
     logging.basicConfig(level=logging.DEBUG)
-    server = Server("0.0.0.0", 9000)
+    server = Server("0.0.0.0", 13451)
     try:
         logging.info("Listening")
         server.start()
