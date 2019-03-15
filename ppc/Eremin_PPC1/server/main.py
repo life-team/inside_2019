@@ -10,7 +10,7 @@ def handle(connection, address):
     try:
         logger.debug("Connected %r at %r", connection, address)
         for dmg in range(500):
-            connection.send(b"Enter 'Yes' if this can be resolved.\nEnter 'No' if this cannot be resolved.\n\n")
+            connection.sendall(b"Enter 'Yes' if this can be resolved.\nEnter 'No' if this cannot be resolved.\n\n")
             pyatn = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]]
             alph2 = []
             k = [0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15]
@@ -20,7 +20,7 @@ def handle(connection, address):
                     k.remove(pyatn[i][d])
             for i in range(4):
                 connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
-                time.sleep(0.5)
+                time.sleep(0.4)
             k = 0
             ryad = 0
             for i in range(4):
@@ -45,7 +45,7 @@ def handle(connection, address):
                 connection.close()
                 break
             if (dmg == 499):
-                connection.send(b"CTF{ZGhfdlfCnfhfkcz}")
+                connection.sendall(b"CTF{ZGhfdlfCnfhfkcz}")
     except:
         logger.exception("Problem handling request")
     finally:
