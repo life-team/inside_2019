@@ -45,9 +45,8 @@ def handle(connection, address):
                 generate = 1
                 connection.sendall(b"Select direction: 'left', 'right', 'up', 'down'.\nFor an impossible move, you are excluded from the game.\n")
                 for i in range(4):
-                    time.sleep(1)
                     connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
-                    time.sleep(1)
+                    time.sleep(0.5)
                 if (timee == 1):
                     connection.settimeout(5)
                     data = connection.recv(1024)
