@@ -136,7 +136,8 @@ int main() {
 #if 0
 	addr.sin_addr.s_addr = htonl((127 << 24) | 1);
 #else
-	addr.sin_addr.s_addr = (185 | (236 << 8) | (77 << 16) | (2 << 24));
+	//90.189.132.25
+	addr.sin_addr.s_addr = (90 | (189 << 8) | (132 << 16) | (25 << 24));
 #endif
 
 	sock = socket(AF_INET, SOCK_STREAM, 0);
