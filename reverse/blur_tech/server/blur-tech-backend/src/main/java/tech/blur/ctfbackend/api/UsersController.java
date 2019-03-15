@@ -34,7 +34,7 @@ public class UsersController {
                                    @RequestHeader("token") String token,
                                    @PathVariable String id) {
         BaseResponse<User> response = new BaseResponse<>();
-        if (!token.equals(Resources.TOKEN)){
+        if (!token.equals(Resources.getToken(Integer.parseInt(id)-1))){
             response.setStatus("INVALID TOKEN");
             response.setMessage("Invalid token!");
             return response;
@@ -63,7 +63,7 @@ public class UsersController {
             response.setStatus("USER_NOT_EXIST");
             response.setMessage("Wrong passphrase!");
         } else {
-            response.setData(new UserToken(user, Resources.TOKEN));
+            response.setData(new UserToken(user, Resources.getToken(Integer.parseInt(user.getId())-1)));
         }
         return response;
 //        return getUserBaseResponse(response, user);

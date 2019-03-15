@@ -22,7 +22,7 @@ public class ObjectiveController {
     BaseResponse<Objective> getObjective(@RequestHeader("token") String token){
         BaseResponse<Objective> response = new BaseResponse<>();
 
-        if (!token.equals(Resources.TOKEN)){
+        if (Resources.isThereToken(token)){
             response.setStatus("INVALID TOKEN");
             response.setMessage("Invalid token!");
         } else {

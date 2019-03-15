@@ -1,5 +1,6 @@
 package tech.blur.ctfbackend.repositories;
 
+import tech.blur.ctfbackend.api.Resources;
 import tech.blur.ctfbackend.models.RecoveryKey;
 import tech.blur.ctfbackend.models.UserLoginPass;
 import tech.blur.ctfbackend.models.User;
@@ -14,6 +15,8 @@ public class InMemoryUserRepository implements UserRepository {
     private Map<String, User> userCache = new HashMap<>();
 
     private Map<UserLoginPass, User> userLoginPass = new HashMap<>();
+
+    private ArrayList<String> tokens = new ArrayList<>();
 
     private final String RECOVERY_KEY = "agDzPnj9YmgL4FB3GS8m";
 
@@ -55,9 +58,14 @@ public class InMemoryUserRepository implements UserRepository {
         for (int i = 1; i <= userCache.size(); i++){
             userLoginPass.put(new UserLoginPass(userCache.get(Integer.toString(i)).getLogin(),
                     userCache.get(Integer.toString(i)).getPassword()), userCache.get(Integer.toString(i)));
+            Resources.setToken(userCache.get(Integer.toString(i)).getPassword());
         }
     }
 
+
+    public String getToken(int id){
+        return tokens.get(id);
+    }
 
     @Override
     public User fetchUser(final String id) {
