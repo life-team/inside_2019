@@ -1,6 +1,6 @@
 version: '2'
 services:
-  task_ppc_1:
+  task_web_1:
     build: .
     ports:
       - "13456:13456"
