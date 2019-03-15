@@ -141,6 +141,7 @@ void * thread_func(void *args)
 				rcv(buf, sock);
 			} else if (strncmp(buf, "/snd", 5) == 0) {
 				snd(sock);
+			} else {
 				send(sock, "unknown command", 16, 0);
 			}
 		}
