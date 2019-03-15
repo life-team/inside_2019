@@ -8,6 +8,7 @@ import time
 #  TODO: Из алфавита удалить буквы с разным размером
 
 def CaptchaGenerate():
+    alphabet_ = []
     alphabet = []
     #  forbidden_letters = ['I', 'M', 'W', '4', 'J', 'T']
     alphabet_string = string.ascii_uppercase + string.digits
@@ -23,9 +24,13 @@ def CaptchaGenerate():
     #          alphabet.remove(fletter)
 
     random.shuffle(alphabet)
+    for letter in alphabet:
+        alphabet_.append(settings.renderText(letter))
 
     captchaString = ''.join(alphabet[:7])
-    captcha = settings.renderText(alphabet[:7])
+    captcha = settings.renderText(captchaString)
+    print(captcha)
+    print(captchaString)
     return captcha, captchaString
 
 
@@ -34,14 +39,14 @@ def CaptchaHandler(connection, address):
     while True:
         if solved != 5:
             captcha, captchaString = CaptchaGenerate()
-            connection.sendall(b'\n' * 10000 + b'\t\t    ')
+            connection.sendall(b'\n' * 10 + b'\t\t    ')
             connection.sendall(b'Solved:' + str(solved).encode() + b'/5\n\n')
             connection.sendall(captcha.encode())
             #  connection.sendall(b'\nANSWER:\n\n')
             print('{} captcha: {} - {}'.format(address, captchaString, solved))
         else:
             settings = Figlet(font='stop')
-            connection.sendall(b'\n' * 10000 + settings.renderText('INSIDE CTF 2019').encode())
+            connection.sendall(b'\n' * 10 + settings.renderText('INSIDE CTF 2019').encode())
             connection.sendall(b'\n\t\t    Congratulations!\n\tSolved 5/5. Your flag: CTF{IS1XBAneiaYgPwX}\n\n\n\n')
             return
 

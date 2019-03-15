@@ -12,7 +12,7 @@ def handle(connection, address):
         logger.debug("Connected %r at %r", connection, address)
         dmg = 0
         timee = 0
-        while (dmg < 15):
+        while (dmg < 3):
             generate = 0
             while True:
                 if (generate == 0):
@@ -45,8 +45,8 @@ def handle(connection, address):
                 generate = 1
                 connection.sendall(b"Select direction: 'left', 'right', 'up', 'down'.\nFor an impossible move, you are excluded from the game.\n")
                 for i in range(4):
-                    connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
-                    time.sleep(0.5)
+                    connection.sendall((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
+                    time.sleep(0.1)
                 if (timee == 1):
                     connection.settimeout(5)
                     data = connection.recv(1024)
@@ -98,7 +98,7 @@ def handle(connection, address):
                 if (pyatn == standart):
                     dmg += 1
                     break
-            if (dmg == 15):
+            if (dmg == 3):
                 connection.sendall(b"CTF{NsCvjuHtibnmBbnjLheu}")
     except:
         logger.exception("Problem handling request")
