@@ -2,7 +2,7 @@ import socket
 
 if __name__ == "__main__":
     sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
-    sock.connect(("0.0.0.0", 13451))
+    sock.connect(("90.189.132.25", 33333))
     pyatn = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]]
     while True:
         result = sock.recv(1024)
