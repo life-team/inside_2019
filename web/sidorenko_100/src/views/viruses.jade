@@ -22,6 +22,8 @@ block content
                 .viruses-description #{viruses[i].description}
                 .viruses-progress-content
                     .viruses-progress
+                        .viruses-img-content
+                            .viruses-img(style="background-image: url('../images/viruses#{i}.png')")
                         h2 Прогресс:
                         .progress-bar-text #{viruses[i].readiness}
                         .progress-bar-line
