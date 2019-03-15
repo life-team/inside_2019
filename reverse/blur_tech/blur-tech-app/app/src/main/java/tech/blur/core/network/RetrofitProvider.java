@@ -5,7 +5,7 @@ import okhttp3.logging.HttpLoggingInterceptor;
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;
 
-public final class RetrofitProvider {
+public final class  RetrofitProvider {
 
     private static final String BASE_URL = "http://90.189.132.25:1337/";
 
