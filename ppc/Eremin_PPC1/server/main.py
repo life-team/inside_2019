@@ -19,8 +19,8 @@ def handle(connection, address):
                     pyatn[i][d] = k[random.randint(0, len(k) - 1)]
                     k.remove(pyatn[i][d])
             for i in range(4):
-                connection.sendall((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
-                time.sleep(0.1)
+                connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
+                time.sleep(0.4)
             k = 0
             ryad = 0
             for i in range(4):

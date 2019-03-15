@@ -36,9 +36,6 @@ public class ObjectiveActivity extends MvpAndroidxActivity implements ObjectiveV
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
 
-        requestWindowFeature(Window.FEATURE_NO_TITLE);//will hide the title
-        Objects.requireNonNull(getSupportActionBar()).hide();
-
         setContentView(R.layout.activity_objective);
 
         name = findViewById(R.id.objective_name);
