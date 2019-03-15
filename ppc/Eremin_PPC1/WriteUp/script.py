@@ -33,5 +33,4 @@ if __name__ == "__main__":
         else:
             answer = b"No\n"
         sock.send(answer)
-        time.sleep(0.1)
     sock.close()
