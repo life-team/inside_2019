@@ -1,0 +1,29 @@
+[
+    {
+       "codename":"Зеленая Отрава",
+      "scientist":"Виталий Черненко",
+      "description":"Смесь таких летальных вирусов как Оспа, Сибирская Язва и ВИЧ. Вирус заразен даже в период инкубации. Летальность 95%.",
+      "genome":"atggggaata atatacaatc acaatttatg ccgaataaca taatacgtct atcaggagct ataagcgatc aaaatacatt gttggtaaac gtattcgatg ccctaaatta cgagggaaaa aagctaatga tagatagtat gtctgaacct atatcagaaa gtaaagattt tgaaccttat ttatttataa aatctctaca cgattttggt aaacttgatt cagaattatc agaaagacta gaaaaaaata tatctgtcat taatgaatat cgttgtaaat ctgaaagtat ccgtcctgag atactcgtaa atctagataa gatacaagac agtgtaaaca caagattagc ggttttaaac gggataaatg atatcgtgga aaaggaaaat tatataaata aaatcattga cgaatttgta tataccggtg gttttcaaaa ttatatgtta ttaagatcta tatattataa ttatagtcaa atagaaggta atttggggta taaagcacag aatatactag atgatgctat tagtaagaga aaactatata tttcatctca taaagcttag",
+      "status":"Прототип загрязнён.",
+       "readiness":"74%",
+       "pollution":true
+    },
+    {
+       "codename":"Вирус Оспы",
+       "scientist":"Ли Цао",
+       "description":"Похож на CNPV298; похож на вирус FPV223-225 и штамм вируса Копенгаген B4R. Вакцина: анкириновый повторный белок.",
+       "genome":"ttattta tatatatcgt atacactata tccttttaca taaaagtctt tcattttatg tatttcatcc atacacttag atacaaatat cctagcagat atcttgtcgt gtaaattttt atacaaatcc ttttttgtaa tagtttcatc tctaacgatc tcagaagcta ctaaatatatcaatagttta tcagcaatta cttttttatc tttatagaat aactcatcat cataatgaga gtcttcaact aactgtaaag cagaagttaa gggagtttga ttaaagatat caaaagaaca tatatcagga ttatattcta gaatggaaga aattatttct tcatttccca ttataacagc gtaatgcaaa gcggttctat cattagaatc ttttttgtta acatctattc cttgccgtaa taataaatct actattctaa cattatttga tttaacagca caatgtagta cagagtgaca gtaacaatcc atatattcaa catcaccaca attttctaat atttgtttta caacactata atatcctagt ctagcagcat cgtgtaaagt tattataacg tttccgcatt cattcactat taatctatct attattcctt ttgtatttcc tatagttcca tttacgctat tatatcttat gatagtattt aaaatatctc tattaatacc gtaataactt aaatacatag cgtagtaaaa aggggttatt cctttaccgt cttttataga tgtatctgct ctatgtttca taagtagggt aactatatct aaattatgta agtttatagc ataatgaaga ggtgttgata aataactgtt cacggtatta acatctattc catcttctaa tagtaactct atagcgtata tatttccgca ttttaccgca taatgcatta acatagtgtc ttctttatcg atatctatac cgtatattct attatctagt aattttttta tatcatcttt attatttttt cttatagctt tcttaagttt taaaaaacta tcagtatgac atttcatgaa gttactaagg tattctataa ccactttatt attatccagt atggcataat gaataggcat gcgcatagta gcatcacgtt agctcctctt actaatagaa atttaacaca ccatatatta ttgaatataa cagcataatg aagaggggta taattatctc tatcagatat tatatctata tctataggat atctaaacaa tagcttaagg atatactttc tattaaatat aatggcatag tgcagaggag ccagtccatc atcatttatc ttgttaacgt tatagccgtt ttctaagata gatgtaacta cttcacgata atcaaaagca actgctgaat gaatatctat agatatttta tagagtttac tgtttcttct ctttctatag cagttcat",
+       "status":"Вакцина готова.",
+       "readiness":"100%",
+       "pollution":false
+    },
+    {
+       "codename":"Acanthamoeba castellanii",
+       "scientist":"Джейсон Монро",
+       "description":"Аналогичен штамму вируса коровьей оспы C22R/B28R и вирусу коровьей оспы D2L; предполагаемый рецептор TNF II CrmB.",
+       "genome":"ctat aaaaagtggg tgggtttgga attagtgatc agtttatgta tatcgcaact accgggcata tggctatcga catcgagaac attacccgca tgataagaga ttgtatcagt ttcgtagtct tgagtattgg tattactata tagtatatag atgtcgacac tagatagaca gtcgcccact agagttaccg tctccgaatg cggcatgata ccatcatcat tctttgcttt cgttagctgt ttggaggaag aacctttgtt attacattta atctcgaaat tcagagtaca cacctttgaa atattttgat atctattttc tcctgtaaag aatcctgaag ttgctacctt attaaggaca gagaagtatt cctcacgaaa tacgggatca caatctttat gattcatagt aatagttagt tccgacgtcg agatggattc gctgataccg gtagtggtcg tcctagtaca cgatgtgtcg ttgactggat acaggttaat ttccacatcg atatagttaa atgtattgct gggtacgggt tcgcatttat ctgcggaaga gacggtgcga gaatatgttc cgagaccaca cggagaacag atgacgtctc cggcagacgt gtgtccggat actccgtatc ctattccaca ttttgtttgg gaaacacatg ccttgcatcc ggatgatcct ttgagaatac aataatatcc gggagagcat tcacagattc tattgtgagt cgtgttacac gatcgcgtct ctacctgatt actatcgcat cttccgttac aacttagaca agcgggtaaa tgattattgc gagatgtgaa ggtacccgaa ccacacggcg tacattgtgt gttagtcttg ctatcgcata atctggaagc gtatgttccc ggaggacacg ataaacaaca cagattatgg cgtttgtatt cgttgtcttt acactttcca ttggatggtg catacggtgt tacatctctt ccgtttatta ttatacatga gagaaacaat atatacgagt ataatacgga cttcat",
+       "status":"Вакцина готова.",
+       "readiness":"100%",
+       "pollution":false
+    }
+ ]

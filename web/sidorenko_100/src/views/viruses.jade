@@ -1,0 +1,37 @@
+title Центр по контролю заболеваний
+
+extends layout
+
+block content
+    #header
+        #header-top
+            .federal-service
+                span Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+    .wrapper
+        figure
+            // Серёжа лох
+            img(class='logo' src='images/logo.png')
+            figcaption федеральное бюджетное учреждение науки государственный научный центр вирусологии и биотехнологии
+
+        .viruses-main
+            - for (var i=0; i < 3; i++) {
+            .viruses-content
+                .viruses-title #{viruses[i].codename}
+                .viruses-scientist Ученый: #{viruses[i].scientist}
+                h2 Описание:
+                .viruses-description #{viruses[i].description}
+                .viruses-progress-content
+                    .viruses-progress
+                        h2 Прогресс:
+                        .progress-bar-text #{viruses[i].readiness}
+                        .progress-bar-line
+                            .progress-bar(style='width: #{viruses[i].readiness}')
+            - }
+            .viruses-content
+                .viruses-title Правила пользования
+                .viruses-description К протоколу /vaccines имеют доступ все сотрудники Центра по контролю заболеваний. Туда заносятся данные по разработкам соответствующих вакцин.
+                .viruses-description Протокол /vaccines/desinfection используется в крайних случаях! Будьте осторожны, использование его при отсутствии в том необходимости может повредить имеющиеся вакцины.
+                .viruses-description Правила пользования протокола дезинфекции:
+                .viruses-description Используется в случаях заражения, загрязнения образцов вакцин или вирусов.
+                .viruses-description Производится вставка соответствующих угрозе данных. Например: часть генома, команда производящая очистку прототипа вакцины.
+

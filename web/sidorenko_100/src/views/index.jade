@@ -1,0 +1,26 @@
+extends layout
+
+block content
+  #header
+    #header-top
+      .federal-service
+        span Федеральная служба по надзору в сфере защиты прав потребителей и благополучия человека
+  .wrapper
+    figure
+      // Серёжа лох
+      img(class='logo' src='images/logo.png')
+      figcaption федеральное бюджетное учреждение науки государственный научный центр вирусологии и биотехнологии
+    .auth-container
+      .auth
+        .auth-header Авторизация
+        .signin-form
+          form
+            label(for="fname")
+            |Пользователь
+            input(type="text" id="fname" value="v.chernenko" name="fname" disabled)
+            label(for="fname")
+            |Пароль
+            input(type="text" id="lname" value="***********" name="lname" disabled)
+          .btn-auth
+            .btn-login
+                a(href="/viruses") Войти
