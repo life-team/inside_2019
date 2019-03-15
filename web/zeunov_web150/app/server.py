@@ -30,7 +30,7 @@ def index():
 
     if request.method == "GET":
         if session['username'] == 'Admin' and session['password'] == 'v3ry_53cr37_p455w0rd':
-            return render_template("index.html",message="Ooooo, Admin back!", message1='flag{J3st_D0_4t}', user=session['username'])
+            return render_template("index.html",message="Ooooo, Admin back!", message1='CTF{J3st_D0_4t}', user=session['username'])
     return(render_template("index.html", message = "Hmmm, you are not Admin!", message1="Maybe you need register?", user=session['username']))
 
 @app.route('/robots.txt')
@@ -44,4 +44,4 @@ def log():
     return Response(f, mimetype='text/plain')
 
 if __name__ == '__main__':
-    app.run(port=8081, host='0.0.0.0', debug=False, threaded=True)
+    app.run(port=13456, host='0.0.0.0', debug=False, threaded=True)
