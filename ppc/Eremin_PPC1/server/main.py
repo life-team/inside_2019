@@ -9,7 +9,7 @@ def handle(connection, address):
     logger = logging.getLogger("process-%r" % (address,))
     try:
         logger.debug("Connected %r at %r", connection, address)
-        for dmg in range(500):
+        for dmg in range(100):
             connection.sendall(b"Enter 'Yes' if this can be resolved.\nEnter 'No' if this cannot be resolved.\n\n")
             pyatn = [[1, 2, 3, 4], [5, 6, 7, 8], [9, 10, 11, 12], [13, 14, 15, 0]]
             alph2 = []
@@ -18,12 +18,11 @@ def handle(connection, address):
                 for d in range(4):
                     pyatn[i][d] = k[random.randint(0, len(k) - 1)]
                     k.remove(pyatn[i][d])
-            for i in range(4):
-                connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
-                time.sleep(0.4)
             k = 0
             ryad = 0
             for i in range(4):
+                connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
+                time.sleep(0.4)
                 for j in range(4):
                     if (pyatn[i][j] == 0):
                         ryad = i+1
@@ -40,11 +39,15 @@ def handle(connection, address):
                 answer = "Yes\n"
             else:
                 answer = "No\n"
+            connection.settimeout(3)
             data = connection.recv(1024)
+            if not data:
+                connection.close()
+                break
             if (data.decode("utf-8") != answer):
                 connection.close()
                 break
-            if (dmg == 499):
+            if (dmg == 99):
                 connection.sendall(b"CTF{ZGhfdlfCnfhfkcz}")
     except:
         logger.exception("Problem handling request")

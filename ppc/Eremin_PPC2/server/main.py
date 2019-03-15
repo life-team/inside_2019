@@ -12,7 +12,7 @@ def handle(connection, address):
         logger.debug("Connected %r at %r", connection, address)
         dmg = 0
         timee = 0
-        while (dmg < 3):
+        while (dmg < 1):
             generate = 0
             while True:
                 if (generate == 0):
@@ -48,7 +48,7 @@ def handle(connection, address):
                     connection.send((str(pyatn[i][0]) + "\t" + str(pyatn[i][1]) + "\t" + str(pyatn[i][2]) + "\t" + str(pyatn[i][3]) + "\n").encode("utf-8"))
                     time.sleep(0.4)
                 if (timee == 1):
-                    connection.settimeout(5)
+                    connection.settimeout(1)
                     data = connection.recv(1024)
                     if not data:
                         connection.close()
@@ -98,7 +98,7 @@ def handle(connection, address):
                 if (pyatn == standart):
                     dmg += 1
                     break
-            if (dmg == 3):
+            if (dmg == 1):
                 connection.sendall(b"CTF{NsCvjuHtibnmBbnjLheu}")
     except:
         logger.exception("Problem handling request")
