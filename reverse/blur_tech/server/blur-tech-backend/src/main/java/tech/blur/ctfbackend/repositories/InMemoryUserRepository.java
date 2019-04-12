@@ -47,6 +47,7 @@ public class InMemoryUserRepository implements UserRepository {
         userCache.put(Integer.toString(i), new User(Integer.toString(i++), "inf_lim", "gwrgbrbsfb", "inf≠lim", 0));
         userCache.put(Integer.toString(i), new User(Integer.toString(i++), "Los_Pollitos", "svlsvlervd", "Los Pollitos", 0));
         userCache.put(Integer.toString(i), new User(Integer.toString(i++), "D34", "poiremgioe", "D34ᵗʰ", 0));
+        userCache.put(Integer.toString(i), new User(Integer.toString(i++), "4N1m3.go.Nо", "sdnlfnsdff", "4N1m3.go.Nо", 0));
         fillUserLoginPassCache();
 
 
